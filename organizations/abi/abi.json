@@ -1,0 +1,75 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_cid",
+				"type": "string"
+			},
+			{
+				"name": "_org_src",
+				"type": "string"
+			},
+			{
+				"name": "_org_dest",
+				"type": "string"
+			},
+			{
+				"name": "_userFrom",
+				"type": "string"
+			},
+			{
+				"name": "_userTo",
+				"type": "string"
+			}
+		],
+		"name": "addMetadata",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "cid",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "org_src",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "org_dest",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "user_from",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "user_to",
+				"type": "string"
+			}
+		],
+		"name": "Metadata",
+		"type": "event"
+	}
+]

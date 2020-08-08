@@ -1,0 +1,28 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "JSA blockchain demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node1": "nodemon --watch src -e js src/api.js 3001 http://localhost:3001",
+    "node2": "nodemon --watch src -e js src/api.js 3002 http://localhost:3002",
+    "node3": "nodemon --watch src -e js src/api.js 3003 http://localhost:3003",
+    "node4": "nodemon --watch src -e js src/api.js 3004 http://localhost:3004",
+    "node5": "nodemon --watch src -e js src/api.js 3005 http://localhost:3005"
+  },
+  "author": "JavaSampleApproach",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "sha256": "^0.2.0",
+    "uuid": "^3.2.1"
+  },
+  "keywords": [
+    "jsa-blockchain"
+  ]
+}
